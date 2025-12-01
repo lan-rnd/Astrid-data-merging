@@ -58,7 +58,7 @@ if uploaded_file and st.button("Générer"):
                 all_data.append({
                     'Product name': product_name,
                     'Person in charge': str(person_in_charge).strip() if person_in_charge and str(person_in_charge).strip() != "None" else "",
-                    'Area': str(area).strip() if area and str(area).strip() != "None" else "",
+                    ' Sales Area': str(area).strip() if area and str(area).strip() != "None" else "",
                     'Sales country': str(country).strip(),
                     'Sales ranking': str(ranking).strip() if ranking else "",
                     'Plant origin': plant['origin'],
